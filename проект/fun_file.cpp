@@ -14,7 +14,7 @@ void savefile(int len,int active[], std::vector<houses>& arr3, std::vector<anima
 			}
 			auto begin = arr3.begin();
 			arr3.erase(begin, begin + 1);
-			file << std::endl;
+			file << std::endl; 
 		}
 		else if (active[i] == 2) {
 			for (int x = 0; x < 1; x++) {
